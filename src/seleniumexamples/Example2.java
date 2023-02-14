@@ -10,5 +10,7 @@ public class Example2 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		System.out.println("Title of Page is: " + driver.getTitle());
+		driver.getTitle();
+		
 }
 }
